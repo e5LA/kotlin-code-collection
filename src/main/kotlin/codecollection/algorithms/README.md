@@ -1,10 +1,10 @@
 # 🧠 Algorithms in Kotlin
 
-This folder contains classic and practical algorithms written in **idiomatic Kotlin**.  
+This package contains classic and practical algorithms written in **idiomatic Kotlin**.  
 
-Each algorithm lives in its own file and is tested with a corresponding unit test — keeping the code clean, minimal, and easy to understand.
+Each algorithm is implemented in its own file and is tested with a unit test - keeping the code clean, minimal, and easy to understand.
 
-Whether you're learning, referencing, or contributing — this collection is for you.
+Whether you're learning, referencing, or contributing - this collection is for you.
 
 
 ---
