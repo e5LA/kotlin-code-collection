@@ -1,10 +1,10 @@
 # 🧠 Algorithms in Kotlin
 
-This folder contains classic and practical algorithms written in **idiomatic Kotlin**.  
+This package contains classic and practical algorithms written in **idiomatic Kotlin**.  
 
-Each algorithm lives in its own file and is tested with a corresponding unit test — keeping the code clean, minimal, and easy to understand.
+Each algorithm is implemented in its own file and is tested with a corresponding unit test - keeping the code clean, minimal, and easy to understand.
 
-Whether you're learning, referencing, or contributing — this collection is for you.
+Whether you're learning, referencing, or contributing - this collection is for you.
 
 
 ---
@@ -21,6 +21,7 @@ Whether you're learning, referencing, or contributing — this collection is for
 
 ## 🙌 Want to Help?
 
-Check out the [issues labeled `type: algorithm`](https://github.com/e5LA/kotlin-code-collection/issues?q=label%3A%22type%3A+algorithm%22)  
-Or submit your own idea as an [Issue](https://github.com/e5LA/kotlin-code-collection/issues/new)!
+Check out the [issues labeled `type: algorithm`](https://github.com/e5LA/kotlin-code-collection/issues?q=label%3A%22type%3A%20algorithm%22%20state%3Aopen)
+
+Or submit your own idea as new [Issue](https://github.com/e5LA/kotlin-code-collection/issues/new)!
 
