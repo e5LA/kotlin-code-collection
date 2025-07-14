@@ -1,0 +1,14 @@
+newIssueWelcomeComment: >
+  👋 Thanks for opening your first issue here!
+
+    We're glad to have you with us!
+
+newPRWelcomeComment: >
+  🚀 Thanks for your PR — great to have you here!  
+  
+  We’ll review it shortly. Stay awesome! 💪
+
+firstPRMergeComment: >
+  🎉 Your first PR is merged — welcome aboard!  
+  
+  Thanks for contributing — we’d love to see you again. 💜
