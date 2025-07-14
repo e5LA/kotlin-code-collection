@@ -1,6 +1,6 @@
 # Kotlin Code Collection
 
-This project is a collection of practical, **idiomatic Kotlin code**, including utilities, real-world recipes, algorithms, and design patterns.
+This project is a collection of practical, **idiomatic Kotlin code**, including utilities, real-world code snippets, algorithms, and design patterns.
 
 The goal is to keep everything clean, understandable, and useful. This repo uses the **latest stable version of Kotlin**, and embraces the language’s modern features.
 
@@ -10,11 +10,11 @@ Whether you're exploring Kotlin, coming from Java, or just need quick references
 
 All code is grouped by the purpose:
 
-- [`recipes/`](src/main/kotlin/codecollection/recipes) - contains real-world tasks (e.g., reading files, formatting dates)
 - [`snippets/`](src/main/kotlin/codecollection/snippets) - small, reusable functions (e.g., capitalize string, check even)
 - [`algorithms/`](src/main/kotlin/codecollection/algorithms) - classic CS problems (e.g., binary search, recursion)
-- [`patterns/`](src/main/kotlin/codecollection/patterns) - common design patterns written idiomatically
 - [`kotlinfeatures/`](src/main/kotlin/codecollection/kotlinfeatures) - Kotlin-specific concepts and language demos
+
+[//]: # (- [`patterns/`]&#40;src/main/kotlin/codecollection/patterns&#41; - common design patterns written idiomatically)
 
 <!--
 ## 🤝 Contributing
