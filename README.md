@@ -16,10 +16,13 @@ All code is grouped by the purpose:
 
 [//]: # (- [`patterns/`]&#40;src/main/kotlin/codecollection/patterns&#41; - common design patterns written idiomatically)
 
-<!--
-## 🤝 Contributing
-New **contributions are always welcome**. See [Contribution Guidlines](CONTRIBUTING.md) for the details.
 
+## 🤝 Contributing
+New **contributions are always welcome**. 
+
+See [Contribution Guidlines](CONTRIBUTING.md) for the details.
+
+<!--
 ## 💬 Feedback & Questions
 Open a [Discussion](https://github.com/e5LA/kotlin-code-collection) or an [Issue](https://github.com/e5LA/kotlin-code-collection/issues) - we’d love to hear from you.
 -->
