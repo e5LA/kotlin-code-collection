@@ -60,9 +60,9 @@ Each package has its own `README.md` with examples - follow its format when addi
 ## 🧪 Tests
 
 - Every `.kt` file should have a matching test
-- Use **JUnit 5**
+- Use kotlin.test
 - Keep tests minimal but meaningful
-- File and function names should mirror the source file
+- File name should mirror the source file
 
 ---
 
