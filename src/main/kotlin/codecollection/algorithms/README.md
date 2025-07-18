@@ -14,8 +14,8 @@ Whether you're learning, referencing, or contributing - this collection is for y
 | -------------- | ---------------------------- | -------------------------------------- |
 | Merge Sort     | Divide-and-conquer sorting   | [`MergeSort.kt`](MergeSort.kt)         |
 | Insertion Sort | Simple comparison-based sort | [`InsertionSort.kt`](InsertionSort.kt) |
-
-| _...more coming soon_
+| Bubble Sort           | Repeated adjacent-swap sorting  | [`BubbleSort.kt`](BubbleSort.kt) |
+| _...more coming soon_ |
 
 ---
 
