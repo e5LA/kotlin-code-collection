@@ -1,3 +1,5 @@
+package codecollection.algorithms
+
 fun insertionSort(list: List<Int>): List<Int> {
     if (list.size <= 1) return list
     
