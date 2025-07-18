@@ -11,10 +11,11 @@ Whether you're learning, referencing, or contributing - this collection is for y
 
 ## 🗂️ Available Algorithms
 
-| Algorithm Name       | Description                  | File                        |
-|----------------------|------------------------------|-----------------------------|
-| Merge Sort           | Divide-and-conquer sorting   | [`MergeSort.kt`](MergeSort.kt) |
-| _...more coming soon_|                              |                             |
+| Algorithm Name        | Description                     | File                             |
+|-----------------------|---------------------------------|----------------------------------|
+| Merge Sort            | Divide-and-conquer sorting      | [`MergeSort.kt`](MergeSort.kt)   |
+| Bubble Sort           | Repeated adjacent-swap sorting  | [`BubbleSort.kt`](BubbleSort.kt) |
+| _...more coming soon_ |                                 |                                  |
 
 
 ---
