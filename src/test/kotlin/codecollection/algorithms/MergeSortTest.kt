@@ -32,5 +32,4 @@ class MergeSortTest {
         val expected = listOf(1, 1, 2, 3, 3)
         assertEquals(expected, mergeSort(input))
     }
-
 }
