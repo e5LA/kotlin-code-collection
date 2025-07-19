@@ -1,0 +1,7 @@
+[*.kt]
+ktlint_standard_no-empty-first-line-in-class-body = disabled
+ktlint_standard_no-trailing-spaces = disabled
+ktlint_standard_parameter-list-wrapping = enabled
+ktlint_standard_argument-list-wrapping = disabled
+ktlint_function_signature_body_expression_wrapping=default
+ktlint_standard_function-signature = disabled
