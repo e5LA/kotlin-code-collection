@@ -1,23 +1,23 @@
 type: snippet:
-  - any:
-    - changed-files:
-      - any-glob-to-any-file: codecollection/snippets/**
+- any:
+  - changed-files:
+    - any-glob-to-any-file: codecollection/snippets/**
 
 type: algorithm:
-  - any:
-    - changed-files:
-      - any-glob-to-any-file: codecollection/algorithms/**
+- any:
+  - changed-files:
+    - any-glob-to-any-file: codecollection/algorithms/**
 
 type: kotlinfeature:
-  - any:
-    - changed-files:
-      - any-glob-to-any-file: codecollection/kotlinfeatures/**
+- any:
+  - changed-files:
+    - any-glob-to-any-file: codecollection/kotlinfeatures/**
 
 type: ci/cd:
-  - any:
-    - changed-files:
-      - any-glob-to-any-file: 
-        - gradle/**
-        - build.gradle*
-        - settings.gradle*
-        - gradle.properties
+- any: 
+  - changed-files:
+    - any-glob-to-any-file: 
+      - gradle/**
+      - build.gradle*
+      - settings.gradle*
+      - gradle.properties
