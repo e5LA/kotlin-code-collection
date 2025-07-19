@@ -1,17 +1,17 @@
 "type: snippet":
 - any:
   - changed-files:
-    - any-glob-to-any-file: codecollection/snippets/**
+    - any-glob-to-any-file: src/main/kotlin/codecollection/snippets/**
 
 "type: algorithm":
 - any:
   - changed-files:
-    - any-glob-to-any-file: codecollection/algorithms/**
+    - any-glob-to-any-file: src/main/kotlin/codecollection/algorithms/**
 
 "type: kotlinfeature":
 - any:
   - changed-files:
-    - any-glob-to-any-file: codecollection/kotlinfeatures/**
+    - any-glob-to-any-file: src/main/kotlin/codecollection/kotlinfeatures/**
 
 "type: ci/cd":
 - any: 
