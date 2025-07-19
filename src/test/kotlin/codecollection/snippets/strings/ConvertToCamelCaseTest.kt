@@ -24,5 +24,4 @@ class ConvertToCamelCaseTest {
     fun `trims and ignores extra separators`() {
         assertEquals("multipleWordsHere", "  multiple___words--here ".toCamelCase())
     }
-
 }

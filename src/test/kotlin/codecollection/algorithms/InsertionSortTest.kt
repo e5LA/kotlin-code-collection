@@ -60,5 +60,4 @@ class InsertionSortTest {
         val expected = listOf(1, 2)
         assertEquals(expected, insertionSort(input))
     }
-
 }
