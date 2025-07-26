@@ -11,5 +11,6 @@ Each snippet is implemented as an extension function or utility method, and test
 | File                                             | Description                           |
 |--------------------------------------------------|---------------------------------------|
 | [`ConvertToCamelCase.kt`](ConvertToCamelCase.kt) | Converts strings to camelCase format  |
+| [`ReplaceMultipleSpaces.kt`](ReplaceMultipleSpaces.kt) | Replaces consecutive whitespace with a single space  |
 | _More coming soon..._                            |                                       |
 

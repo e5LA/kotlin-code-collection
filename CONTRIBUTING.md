@@ -55,6 +55,20 @@ Each package has its own `README.md` with examples - follow its format when addi
 - Avoid Java-style code 
 - No unnecessary boilerplate
 
+## 🧹 Formatting & Linting
+  This project uses ktlint to enforce consistent Kotlin style.
+
+Before submitting a pull request, run:
+```
+./gradlew ktlintCheck 
+    or
+./gradlew build
+```
+To auto-fix formatting issues, run:
+```
+./gradlew ktlintFormat
+```
+
 ---
 
 ## 🧪 Tests
@@ -66,4 +80,4 @@ Each package has its own `README.md` with examples - follow its format when addi
 
 ---
 
-## Thanks for contributing!
+## 🙏 Thanks for contributing!
