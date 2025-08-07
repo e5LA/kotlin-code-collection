@@ -1,7 +1,5 @@
 package codecollection.algorithms
 
-import java.util.Collections
-
 fun selectionSort(list: List<Int>): List<Int> {
     if (list.size <= 1) return list
     val result = list.toMutableList()
