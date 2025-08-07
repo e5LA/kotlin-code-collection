@@ -10,7 +10,7 @@ fun selectionSort(list: List<Int>): List<Int> {
         for (j in i + 1 until result.size) {
             if (result[j] < result[minIndex]) minIndex = j
         }
-        if (minIndex != i) Collections.swap(result, minIndex, i)
+        if (minIndex != i) result[minIndex] = result[i].also { result[i] = result[minIndex] }
     }
     return result
 }
