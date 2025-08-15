@@ -12,4 +12,5 @@ Each snippet is implemented as an extension function or utility method, and test
 |----------------------------------|---------------------------------------|
 | [`DigitCount.kt`](DigitCount.kt) | Returns the number of digits in an integer  |
 | [`IsEven.kt`](IsEven.kt)         | Returns true if the given numberis Even |
+| _More coming soon..._                            |                                       |
 
