@@ -1,5 +1,3 @@
 package codecollection.snippets.numbers
 
-fun isEven(n: Int): Boolean {
-    return n % 2 == 0
-}
+fun isEven(n: Int): Boolean = n % 2 == 0
