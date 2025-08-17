@@ -1,7 +1,7 @@
-package codecollection.kotlinfeatures
-
 // Data classes can't be abstract, open, sealed, or inner.
 // The primary constructor must have at least one parameter.
+
+package codecollection.kotlinfeatures
 
 data class Person(
     val firstName: String,
@@ -22,7 +22,7 @@ data class Address(
 )
 
 data class Employee(
-    var position: String = "Intern", // default property
+    val position: String = "Intern", // default property
     val person: Person,
     val address: Address,
 )
