@@ -2,7 +2,6 @@ package codecollection.kotlinfeatures
 
 import kotlin.test.Test
 import kotlin.test.assertEquals
-import kotlin.test.assertFalse
 import kotlin.test.assertNotEquals
 import kotlin.test.assertNotSame
 import kotlin.test.assertNull
@@ -38,8 +37,8 @@ class DataClassTest {
 
     @Test
     fun `equals should work correctly for same content`() {
-        assertTrue(person1 == person3)
-        assertFalse(person1 == person2)
+        assertEquals(person1, person3)
+        assertNotEquals(person1, person2)
     }
 
     @Test
