@@ -139,4 +139,3 @@ fun demonstrateToDestructuring(person1: Person) {
     // age: 30
     // email: alice@example.com
 }
-
