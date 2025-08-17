@@ -35,6 +35,14 @@ fun main() {
     val person2 = Person(firstName = "Bob", age = 32, email = "bob@example.com")
     val person3 = Person(firstName = "Alice", age = 30, email = "alice@example.com")
 
+    demonstrateToString(person1, person2)
+    demonstrateToEquals(person1, person2, person3)
+    demonstrateToHashCode(person1, person2, person3)
+    demonstrateToCopy(person1)
+    demonstrateToDestructuring(person1)
+}
+
+fun demonstrateToString(person1: Person, person2: Person) {
     // toString() - automatically generated
     println("\n=== toString() ===")
     println("Person 1: $person1")
@@ -42,21 +50,19 @@ fun main() {
     // Output:
     // Person 1: Person(firstName=Alice, age=30, email=alice@example.com)
     // Person 2: Person(firstName=Bob, age=32, email=bob@example.com)
+}
 
-    // equals()
+fun demonstrateToEquals(person1: Person, person2: Person, person3: Person) {
+    // equals() - automatically generated
     println("\n=== equals() ===")
     println("person1 == person3: ${person1 == person3}") // true
     println("person1 == person2: ${person1 == person2}") // false
+}
 
-    // hashCode()
+fun demonstrateToHashCode(person1: Person, person2: Person, person3: Person) {
+    // hashCode() - automatically generated
     println("\n=== hashCode() ===")
-    println("hashCode person1: ${person1.hashCode()}")
-    println("hashCode person2: ${person2.hashCode()}")
-    println("hashCode person3: ${person3.hashCode()}") // same as person1.hashCode()
-    // Output:
-    // hashCode person1: -1399032001
-    // hashCode person2: 531733799
-    // hashCode person3: -1399032001
+    println("person1.hashCode() equals person3.hashCode(): ${person1.hashCode() == person3.hashCode()}") // true
 
     // Checking in HashSet
     println("\n=== Checking in HashSet ===")
@@ -77,17 +83,21 @@ fun main() {
         )
 
     println("person1 salary: ${salary[person1]}") // 30000
-    println("person3 salary: ${salary[person3]}") // 30000, because is same key
+    println("person3 salary: ${salary[person3]}") // 30000, because person3 equals person1 (same hashCode and equals)
 
     // Important! The use "var" is not recommended in the data classes.
     println("\n=== Mutation properties: ===")
     val mutablePerson = MutablePerson("Charlie", 35, "charlie@example.com")
-    val testMap = hashMapOf(mutablePerson to "Developer")
-    println("before mutation: ${testMap[mutablePerson]}") // Developer
+    val roleMap = hashMapOf(mutablePerson to "Developer")
+    println("before mutation: ${mutablePerson.hashCode()}")
     mutablePerson.age = 36
-    println("after mutation: ${testMap[mutablePerson]}") // null, the key is "lost"
+    println("after mutation: ${mutablePerson.hashCode()}") // Different!
+    println("Map size: ${roleMap.size}") // Map still contains the entry but can't find it.
+}
 
-    // copy() Attention! It is shallow copy. See example
+fun demonstrateToCopy(person1: Person) {
+    // copy() - automatically generated.
+    // Attention! It is shallow copy. See example
     println("\n=== copy() ===")
 
     val person1Updated = person1.copy(age = 31, email = "new.alice@example.com")
@@ -111,7 +121,9 @@ fun main() {
     println("employee2: $employee2")
     // employee1: Employee(position=Developer, person=Person(firstName=Alice, age=30, email=alice@example.com), address=Address(city=New York, street=Park Avenue))
     // employee2: Employee(position=Developer, person=Person(firstName=Alice, age=30, email=alice@example.com), address=Address(city=New York, street=Park Avenue))
+}
 
+fun demonstrateToDestructuring(person1: Person) {
     // Destructuring - automatically generated componentN() functions corresponding to the properties in their order of declaration.
     println("\n=== Destructuring: ===")
     val (name, age, email) = person1
@@ -127,3 +139,4 @@ fun main() {
     // age: 30
     // email: alice@example.com
 }
+
