@@ -9,7 +9,7 @@ data class Person(
     val email: String,
 )
 
-// Attention! The use "var" is not recommended in the data classes. See the example.
+// Attention! Using 'var' is not recommended in the data classes. See the example.
 data class MutablePerson(
     var firstName: String,
     var age: Int,
